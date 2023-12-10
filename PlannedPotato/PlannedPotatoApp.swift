@@ -16,8 +16,7 @@ struct PlannedPotatoApp: App {
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
             
-            # screw yuy
-                
+                            
             }
         }
     }
