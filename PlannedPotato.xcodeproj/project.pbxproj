@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41AADB8E2B25860600FE3AD3 /* PlannedPotatoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AADB8D2B25860600FE3AD3 /* PlannedPotatoApp.swift */; };
+		41AADB902B25860600FE3AD3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AADB8F2B25860600FE3AD3 /* Persistence.swift */; };
+		41AADB932B25860600FE3AD3 /* PlannedPotato.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41AADB912B25860600FE3AD3 /* PlannedPotato.xcdatamodeld */; };
+		41AADB952B25860600FE3AD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AADB942B25860600FE3AD3 /* ContentView.swift */; };
+		41AADB972B25860800FE3AD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41AADB962B25860800FE3AD3 /* Assets.xcassets */; };
+		41AADB9B2B25860800FE3AD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41AADB9A2B25860800FE3AD3 /* Preview Assets.xcassets */; };
+		41AADBA52B25860800FE3AD3 /* PlannedPotatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AADBA42B25860800FE3AD3 /* PlannedPotatoTests.swift */; };
+		41AADBAF2B25860800FE3AD3 /* PlannedPotatoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AADBAE2B25860800FE3AD3 /* PlannedPotatoUITests.swift */; };
+		41AADBB12B25860800FE3AD3 /* PlannedPotatoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AADBB02B25860800FE3AD3 /* PlannedPotatoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41AADBA12B25860800FE3AD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41AADB822B25860600FE3AD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41AADB892B25860600FE3AD3;
+			remoteInfo = PlannedPotato;
+		};
+		41AADBAB2B25860800FE3AD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41AADB822B25860600FE3AD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41AADB892B25860600FE3AD3;
+			remoteInfo = PlannedPotato;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41AADB8A2B25860600FE3AD3 /* PlannedPotato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlannedPotato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AADB8D2B25860600FE3AD3 /* PlannedPotatoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannedPotatoApp.swift; sourceTree = "<group>"; };
+		41AADB8F2B25860600FE3AD3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		41AADB922B25860600FE3AD3 /* PlannedPotato.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlannedPotato.xcdatamodel; sourceTree = "<group>"; };
+		41AADB942B25860600FE3AD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41AADB962B25860800FE3AD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41AADB982B25860800FE3AD3 /* PlannedPotato.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlannedPotato.entitlements; sourceTree = "<group>"; };
+		41AADB9A2B25860800FE3AD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41AADBA02B25860800FE3AD3 /* PlannedPotatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlannedPotatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AADBA42B25860800FE3AD3 /* PlannedPotatoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannedPotatoTests.swift; sourceTree = "<group>"; };
+		41AADBAA2B25860800FE3AD3 /* PlannedPotatoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlannedPotatoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AADBAE2B25860800FE3AD3 /* PlannedPotatoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannedPotatoUITests.swift; sourceTree = "<group>"; };
+		41AADBB02B25860800FE3AD3 /* PlannedPotatoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannedPotatoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41AADB872B25860600FE3AD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AADB9D2B25860800FE3AD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AADBA72B25860800FE3AD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41AADB812B25860600FE3AD3 = {
+			isa = PBXGroup;
+			children = (
+				41AADB8C2B25860600FE3AD3 /* PlannedPotato */,
+				41AADBA32B25860800FE3AD3 /* PlannedPotatoTests */,
+				41AADBAD2B25860800FE3AD3 /* PlannedPotatoUITests */,
+				41AADB8B2B25860600FE3AD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41AADB8B2B25860600FE3AD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41AADB8A2B25860600FE3AD3 /* PlannedPotato.app */,
+				41AADBA02B25860800FE3AD3 /* PlannedPotatoTests.xctest */,
+				41AADBAA2B25860800FE3AD3 /* PlannedPotatoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41AADB8C2B25860600FE3AD3 /* PlannedPotato */ = {
+			isa = PBXGroup;
+			children = (
+				41AADB8D2B25860600FE3AD3 /* PlannedPotatoApp.swift */,
+				41AADB8F2B25860600FE3AD3 /* Persistence.swift */,
+				41AADB942B25860600FE3AD3 /* ContentView.swift */,
+				41AADB962B25860800FE3AD3 /* Assets.xcassets */,
+				41AADB982B25860800FE3AD3 /* PlannedPotato.entitlements */,
+				41AADB912B25860600FE3AD3 /* PlannedPotato.xcdatamodeld */,
+				41AADB992B25860800FE3AD3 /* Preview Content */,
+			);
+			path = PlannedPotato;
+			sourceTree = "<group>";
+		};
+		41AADB992B25860800FE3AD3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41AADB9A2B25860800FE3AD3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41AADBA32B25860800FE3AD3 /* PlannedPotatoTests */ = {
+			isa = PBXGroup;
+			children = (
+				41AADBA42B25860800FE3AD3 /* PlannedPotatoTests.swift */,
+			);
+			path = PlannedPotatoTests;
+			sourceTree = "<group>";
+		};
+		41AADBAD2B25860800FE3AD3 /* PlannedPotatoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41AADBAE2B25860800FE3AD3 /* PlannedPotatoUITests.swift */,
+				41AADBB02B25860800FE3AD3 /* PlannedPotatoUITestsLaunchTests.swift */,
+			);
+			path = PlannedPotatoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41AADB892B25860600FE3AD3 /* PlannedPotato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AADBB42B25860800FE3AD3 /* Build configuration list for PBXNativeTarget "PlannedPotato" */;
+			buildPhases = (
+				41AADB862B25860600FE3AD3 /* Sources */,
+				41AADB872B25860600FE3AD3 /* Frameworks */,
+				41AADB882B25860600FE3AD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlannedPotato;
+			productName = PlannedPotato;
+			productReference = 41AADB8A2B25860600FE3AD3 /* PlannedPotato.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41AADB9F2B25860800FE3AD3 /* PlannedPotatoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AADBB72B25860800FE3AD3 /* Build configuration list for PBXNativeTarget "PlannedPotatoTests" */;
+			buildPhases = (
+				41AADB9C2B25860800FE3AD3 /* Sources */,
+				41AADB9D2B25860800FE3AD3 /* Frameworks */,
+				41AADB9E2B25860800FE3AD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41AADBA22B25860800FE3AD3 /* PBXTargetDependency */,
+			);
+			name = PlannedPotatoTests;
+			productName = PlannedPotatoTests;
+			productReference = 41AADBA02B25860800FE3AD3 /* PlannedPotatoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41AADBA92B25860800FE3AD3 /* PlannedPotatoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AADBBA2B25860800FE3AD3 /* Build configuration list for PBXNativeTarget "PlannedPotatoUITests" */;
+			buildPhases = (
+				41AADBA62B25860800FE3AD3 /* Sources */,
+				41AADBA72B25860800FE3AD3 /* Frameworks */,
+				41AADBA82B25860800FE3AD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41AADBAC2B25860800FE3AD3 /* PBXTargetDependency */,
+			);
+			name = PlannedPotatoUITests;
+			productName = PlannedPotatoUITests;
+			productReference = 41AADBAA2B25860800FE3AD3 /* PlannedPotatoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41AADB822B25860600FE3AD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					41AADB892B25860600FE3AD3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					41AADB9F2B25860800FE3AD3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 41AADB892B25860600FE3AD3;
+					};
+					41AADBA92B25860800FE3AD3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 41AADB892B25860600FE3AD3;
+					};
+				};
+			};
+			buildConfigurationList = 41AADB852B25860600FE3AD3 /* Build configuration list for PBXProject "PlannedPotato" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41AADB812B25860600FE3AD3;
+			productRefGroup = 41AADB8B2B25860600FE3AD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41AADB892B25860600FE3AD3 /* PlannedPotato */,
+				41AADB9F2B25860800FE3AD3 /* PlannedPotatoTests */,
+				41AADBA92B25860800FE3AD3 /* PlannedPotatoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41AADB882B25860600FE3AD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AADB9B2B25860800FE3AD3 /* Preview Assets.xcassets in Resources */,
+				41AADB972B25860800FE3AD3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AADB9E2B25860800FE3AD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AADBA82B25860800FE3AD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41AADB862B25860600FE3AD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AADB8E2B25860600FE3AD3 /* PlannedPotatoApp.swift in Sources */,
+				41AADB932B25860600FE3AD3 /* PlannedPotato.xcdatamodeld in Sources */,
+				41AADB952B25860600FE3AD3 /* ContentView.swift in Sources */,
+				41AADB902B25860600FE3AD3 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AADB9C2B25860800FE3AD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AADBA52B25860800FE3AD3 /* PlannedPotatoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AADBA62B25860800FE3AD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AADBB12B25860800FE3AD3 /* PlannedPotatoUITestsLaunchTests.swift in Sources */,
+				41AADBAF2B25860800FE3AD3 /* PlannedPotatoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41AADBA22B25860800FE3AD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41AADB892B25860600FE3AD3 /* PlannedPotato */;
+			targetProxy = 41AADBA12B25860800FE3AD3 /* PBXContainerItemProxy */;
+		};
+		41AADBAC2B25860800FE3AD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41AADB892B25860600FE3AD3 /* PlannedPotato */;
+			targetProxy = 41AADBAB2B25860800FE3AD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		41AADBB22B25860800FE3AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41AADBB32B25860800FE3AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		41AADBB52B25860800FE3AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PlannedPotato/PlannedPotato.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlannedPotato/Preview Content\"";
+				DEVELOPMENT_TEAM = X2H32JNJ37;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PotatoesUnited.PlannedPotato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41AADBB62B25860800FE3AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PlannedPotato/PlannedPotato.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlannedPotato/Preview Content\"";
+				DEVELOPMENT_TEAM = X2H32JNJ37;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PotatoesUnited.PlannedPotato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		41AADBB82B25860800FE3AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2H32JNJ37;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PotatoesUnited.PlannedPotatoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlannedPotato.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlannedPotato";
+			};
+			name = Debug;
+		};
+		41AADBB92B25860800FE3AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2H32JNJ37;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PotatoesUnited.PlannedPotatoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlannedPotato.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlannedPotato";
+			};
+			name = Release;
+		};
+		41AADBBB2B25860800FE3AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2H32JNJ37;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PotatoesUnited.PlannedPotatoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlannedPotato;
+			};
+			name = Debug;
+		};
+		41AADBBC2B25860800FE3AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2H32JNJ37;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PotatoesUnited.PlannedPotatoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlannedPotato;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41AADB852B25860600FE3AD3 /* Build configuration list for PBXProject "PlannedPotato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AADBB22B25860800FE3AD3 /* Debug */,
+				41AADBB32B25860800FE3AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41AADBB42B25860800FE3AD3 /* Build configuration list for PBXNativeTarget "PlannedPotato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AADBB52B25860800FE3AD3 /* Debug */,
+				41AADBB62B25860800FE3AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41AADBB72B25860800FE3AD3 /* Build configuration list for PBXNativeTarget "PlannedPotatoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AADBB82B25860800FE3AD3 /* Debug */,
+				41AADBB92B25860800FE3AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41AADBBA2B25860800FE3AD3 /* Build configuration list for PBXNativeTarget "PlannedPotatoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AADBBB2B25860800FE3AD3 /* Debug */,
+				41AADBBC2B25860800FE3AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		41AADB912B25860600FE3AD3 /* PlannedPotato.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				41AADB922B25860600FE3AD3 /* PlannedPotato.xcdatamodel */,
+			);
+			currentVersion = 41AADB922B25860600FE3AD3 /* PlannedPotato.xcdatamodel */;
+			path = PlannedPotato.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 41AADB822B25860600FE3AD3 /* Project object */;
+}
