@@ -16,7 +16,7 @@ struct PlannedPotatoApp: App {
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
             
-            #magdiel is getting carried
+            # screw yuy
                 
             }
         }
