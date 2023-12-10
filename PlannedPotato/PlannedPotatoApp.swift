@@ -15,6 +15,10 @@ struct PlannedPotatoApp: App {
         WindowGroup {
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            var legs: some Scene{
+                
+                }
+            }
         }
     }
 }
